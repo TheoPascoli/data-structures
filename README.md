@@ -1,3 +1,4 @@
 Data Structures
 
-- Dynamic array
+- Dynamic Array
+- Doubly Linked List
