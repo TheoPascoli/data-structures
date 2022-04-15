@@ -4,7 +4,7 @@ import java.util.EmptyStackException;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class Stack <T> implements Iterable <T> {
+public class Stack<T> implements Iterable<T> {
 
     private LinkedList<T> list = new LinkedList<>();
 

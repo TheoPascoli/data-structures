@@ -210,6 +210,7 @@ public class DoublyLinkedList<T> implements Iterable<T> {
     public Iterator<T> iterator() {
         return new Iterator<T>() {
             private Node<T> trav = head;
+
             @Override
             public boolean hasNext() {
                 return trav.next != null;
@@ -228,7 +229,7 @@ public class DoublyLinkedList<T> implements Iterable<T> {
     public String toString() {
         StringJoiner sj = new StringJoiner(", ", "[", "]");
         Node<T> trav = head;
-        while(trav.next != null) {
+        while (trav.next != null) {
             sj.add(trav.data.toString());
             trav = trav.next;
         }
